@@ -8,7 +8,7 @@ app.use(express.json());
 
 app.use("/api/equipment",equipmentRoutes);
 
-const PORT = 6000;
+const PORT = 8000;
 app.listen(PORT,()=>{
     console.log(`server up and running on port ${PORT}`)
 })
