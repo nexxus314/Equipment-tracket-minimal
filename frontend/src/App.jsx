@@ -17,8 +17,11 @@ function App() {
   }, []);
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h2>Equipment Tracker</h2>
+    <div className="min-h-screen bg-gray-100 flex justify-center p-6">
+  <div className="w-full max-w-6xl bg-white rounded-xl shadow-md p-6">
+    <h1 className="text-2xl font-semibold mb-6">
+      Equipment Tracker
+    </h1>
 
       <EquipmentForm
         fetchEquipment={fetchEquipment}
@@ -32,6 +35,7 @@ function App() {
         setEditingItem={setEditingItem}
       />
     </div>
+     </div>
   );
 }
 
