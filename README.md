@@ -10,13 +10,14 @@
    - cd frontend
    - npm install
    - npm start
-
+### Added features
+- Add search and filters
+- Better UI styling
 ### Assumptions
 - Used a JSON file as database for simplicity
 - Single-user system (no auth)
 
 ### Improvements
-- Add search and filters
-- Better UI styling
 - Replace JSON with real database
+
 
