@@ -9,10 +9,14 @@ const initialState = {
 
 export default function EquipmentForm({ fetchEquipment, editingItem, setEditingItem }) {
   const [form, setForm] = useState(initialState);
+useEffect(() => {
+  if (!editingItem) return;
 
-  useEffect(() => {
-    if (editingItem) setForm(editingItem);
-  }, [editingItem]);
+  setForm(prev =>
+    prev.id === editingItem.id ? prev : editingItem
+  );
+}, [editingItem]);
+
 
   const handleChange = e => {
     setForm({ ...form, [e.target.name]: e.target.value });

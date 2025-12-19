@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "1155fc42-641e-4755-aaf6-08875f74e3cb",
+    "name": "equipment 1",
+    "type": "Machine",
+    "status": "Active",
+    "lastCleaned": "2025-12-10"
+  },
+  {
+    "id": "59766c06-4079-4e4d-8ae7-c859e3878d3a",
+    "name": "2",
+    "type": "Machine",
+    "status": "Inactive",
+    "lastCleaned": "2025-12-03"
+  }
+]
